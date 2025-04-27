@@ -10,8 +10,8 @@ namespace tpmodul10_103022300004.Controllers
     {
         private static List<Mahasiswa> _mahasiswaList = new List<Mahasiswa>
         {
-            new Mahasiswa { Nama = "Deswita Syaharani", Nim = "103022300004" },
-            new Mahasiswa { Nama = "Carlos Sainz", Nim = "103022300055" }
+            new Mahasiswa ("Deswita Syaharani", "103022300004" ),
+            new Mahasiswa ("Carlos Sainz","103022300055" )
         };
 
         [HttpGet]
